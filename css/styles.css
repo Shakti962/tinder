@@ -1,0 +1,169 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.2;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+p{
+  color: #8f8f8f;
+}
+a{
+  color: #8f8f8f;
+}
+a:hover{
+  text-decoration: none;
+  color: #616060;
+}
+
+.container-fluid{
+  padding: 3% 15% 9%;
+}
+
+          /* navigation-bar */
+
+.navbar{
+  padding: 10px 0 70px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar-item{
+  font-size: 1.2rem;
+  padding: 0 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+            /* Download-Botton */
+
+.download-button{
+  margin: 33px 10px 0;
+}
+
+        /* Title-Image */
+
+.iphone{
+  width: 60%;
+  transform: rotate(23deg);
+  position: absolute;
+}
+
+@media (max-width: 1010px) {
+  .iphone{
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+          /* Features Section */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.icon-box{
+  text-align: center;
+  padding: 0 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+                /* Testimonials-Section */
+
+#testimonials{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  padding-top: 2rem;
+}
+
+            /* Press-Section */
+
+#press{
+  text-align: center;
+  padding-bottom: 2rem;
+  margin: 0 9%;
+}
+
+.press-img{
+  width: 17%;
+  margin: 0 1.5rem;
+}
+
+                /* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloum{
+  padding: 3% 2%;
+}
+
+                  /* Call to Action  */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 12% 20%;
+  text-align: center;
+}
+
+.cta-h3{
+  color: white;
+  font-size: 43px;
+  font-family: 'Montserrat-Black', sans-serif;
+  padding-bottom: 40px;
+}
+
+.cta-btn{
+  margin: 15px;
+}
+
+              /* Footer Section */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon{
+  padding: 15px;
+}
